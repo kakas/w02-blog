@@ -1,0 +1,19 @@
+<div id="sidebar">
+  <div id="logo">
+    <%= link_to root_path do %>
+      <%= image_tag "logo.svg" %>
+    <% end %>
+  </div>
+
+  <ul>
+    <li class="category">Website</li>
+    <li><%= link_to "Blog", root_path %></li>
+    <li><%= link_to "About", '#' %></li>
+  </ul>
+
+  <ul>
+    <li class="category">Social</li>
+    <li><%= link_to "trello", "https://trello.com/b/5FXzmgWF/built-12-different-web-apps-in-12-weeks" %></li>
+    <li><%= link_to "github", "https://github.com/kakas/w01-raddit-clone" %></li>
+  </ul>
+</div>

@@ -1,19 +1,21 @@
-<h1>Add a New post</h1>
+<div id="page_wrapper">
+  <h1>Add a New post</h1>
 
-<%= form_for @post do |f| %>
+  <%= form_for @post do |f| %>
 
-  <p>
-  <%= f.label :title %> <br>
-  <%= f.text_field :title %>
-  </p>
+    <p>
+    <%= f.label :title %> <br>
+    <%= f.text_field :title %>
+    </p>
 
-  <p>
-  <%= f.label :body %> <br>
-  <%= f.text_area :body %>
-  </p>
+    <p>
+    <%= f.label :body %> <br>
+    <%= f.text_area :body %>
+    </p>
 
-  <p>
-  <%= f.submit %>
-  </p>
+    <p>
+    <%= f.submit %>
+    </p>
 
-<% end %>
+  <% end %>
+</div>
